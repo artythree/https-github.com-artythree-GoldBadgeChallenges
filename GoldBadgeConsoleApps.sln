@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldBadgeConsoleApps", "GoldBadgeConsoleApps.csproj", "{D8C97D46-3CBC-44A8-A079-77EC1BC05E9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_KomodoCafe", "01_KomodoCafe", "{30D2BD09-9523-412F-BEB7-48D2AED53B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoCafeClasses", "..\KomodoCafeClasses\KomodoCafeClasses.csproj", "{03A6F49B-CC20-4BC3-A29A-712DBBD5D48D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoCafeUnitTest", "..\KomodoCafeUnitTest\KomodoCafeUnitTest.csproj", "{C88B1FDC-C913-4F7E-A0C5-7080195B4A03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_KomodoClaims", "02_KomodoClaims", "{93579E52-B420-4647-ACE5-DCEFE3BF46D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoClaimsUnitTest", "..\KomodoClaimsUnitTest\KomodoClaimsUnitTest.csproj", "{477550A1-D9D7-46B9-B785-811CD354DC52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoClaimsClassLibrary", "..\KomodoClaimsClassLibrary\KomodoClaimsClassLibrary.csproj", "{A6141DE6-C1C2-42C9-A7CA-D1F482BE31C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComodoClaimsConsole", "..\ComodoClaimsConsole\ComodoClaimsConsole.csproj", "{BF5AAC83-F1D9-49C6-98FF-2D0B0A6AE268}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_KomodoInsuranceBadges", "03_KomodoInsuranceBadges", "{F925434A-94BB-4B39-B376-530310945FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgesConsole", "..\Badges\BadgesConsole.csproj", "{52765BCF-6438-4C10-AA3E-2FA121FAC459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgesLibrary", "..\BadgesLibrary\BadgesLibrary.csproj", "{CDF6D30C-B236-4215-A6F9-49D10E0C26A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgesUnitTest", "..\BadgesUnitTest\BadgesUnitTest.csproj", "{BFC2E3B4-4561-40F9-8BE0-0684DA6104A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8C97D46-3CBC-44A8-A079-77EC1BC05E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C97D46-3CBC-44A8-A079-77EC1BC05E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C97D46-3CBC-44A8-A079-77EC1BC05E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C97D46-3CBC-44A8-A079-77EC1BC05E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A6F49B-CC20-4BC3-A29A-712DBBD5D48D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A6F49B-CC20-4BC3-A29A-712DBBD5D48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A6F49B-CC20-4BC3-A29A-712DBBD5D48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A6F49B-CC20-4BC3-A29A-712DBBD5D48D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88B1FDC-C913-4F7E-A0C5-7080195B4A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88B1FDC-C913-4F7E-A0C5-7080195B4A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88B1FDC-C913-4F7E-A0C5-7080195B4A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88B1FDC-C913-4F7E-A0C5-7080195B4A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{477550A1-D9D7-46B9-B785-811CD354DC52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477550A1-D9D7-46B9-B785-811CD354DC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477550A1-D9D7-46B9-B785-811CD354DC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477550A1-D9D7-46B9-B785-811CD354DC52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6141DE6-C1C2-42C9-A7CA-D1F482BE31C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6141DE6-C1C2-42C9-A7CA-D1F482BE31C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6141DE6-C1C2-42C9-A7CA-D1F482BE31C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6141DE6-C1C2-42C9-A7CA-D1F482BE31C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5AAC83-F1D9-49C6-98FF-2D0B0A6AE268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5AAC83-F1D9-49C6-98FF-2D0B0A6AE268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5AAC83-F1D9-49C6-98FF-2D0B0A6AE268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5AAC83-F1D9-49C6-98FF-2D0B0A6AE268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52765BCF-6438-4C10-AA3E-2FA121FAC459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52765BCF-6438-4C10-AA3E-2FA121FAC459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52765BCF-6438-4C10-AA3E-2FA121FAC459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52765BCF-6438-4C10-AA3E-2FA121FAC459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF6D30C-B236-4215-A6F9-49D10E0C26A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF6D30C-B236-4215-A6F9-49D10E0C26A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF6D30C-B236-4215-A6F9-49D10E0C26A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF6D30C-B236-4215-A6F9-49D10E0C26A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC2E3B4-4561-40F9-8BE0-0684DA6104A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC2E3B4-4561-40F9-8BE0-0684DA6104A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC2E3B4-4561-40F9-8BE0-0684DA6104A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC2E3B4-4561-40F9-8BE0-0684DA6104A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8C97D46-3CBC-44A8-A079-77EC1BC05E9E} = {30D2BD09-9523-412F-BEB7-48D2AED53B7B}
+		{03A6F49B-CC20-4BC3-A29A-712DBBD5D48D} = {30D2BD09-9523-412F-BEB7-48D2AED53B7B}
+		{C88B1FDC-C913-4F7E-A0C5-7080195B4A03} = {30D2BD09-9523-412F-BEB7-48D2AED53B7B}
+		{477550A1-D9D7-46B9-B785-811CD354DC52} = {93579E52-B420-4647-ACE5-DCEFE3BF46D9}
+		{A6141DE6-C1C2-42C9-A7CA-D1F482BE31C0} = {93579E52-B420-4647-ACE5-DCEFE3BF46D9}
+		{BF5AAC83-F1D9-49C6-98FF-2D0B0A6AE268} = {93579E52-B420-4647-ACE5-DCEFE3BF46D9}
+		{52765BCF-6438-4C10-AA3E-2FA121FAC459} = {F925434A-94BB-4B39-B376-530310945FAE}
+		{CDF6D30C-B236-4215-A6F9-49D10E0C26A8} = {F925434A-94BB-4B39-B376-530310945FAE}
+		{BFC2E3B4-4561-40F9-8BE0-0684DA6104A4} = {F925434A-94BB-4B39-B376-530310945FAE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C31D4E18-C7D3-44BA-95CA-28E21A1D2394}
+	EndGlobalSection
+EndGlobal
